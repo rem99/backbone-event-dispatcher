@@ -1,6 +1,8 @@
 # Backbone Event Dispatcher
 ### Example:
+```js
 var Component = Backbone.View.extend(componentMixin)
+```
 Now you can create your initial component view:
 ```js
 var MyComponent = Component.extend({
