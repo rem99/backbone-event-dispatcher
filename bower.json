@@ -1,0 +1,33 @@
+{
+    "name": "backbone-event-dispatcher",
+    "homepage": "https://github.com/rem99/backbone-event-dispatcher",
+    "authors": [
+        "Rostyslav Sulytskyi"
+    ],
+    "description": "",
+    "main": "",
+    "moduleType": [
+        "amd"
+    ],
+    "keywords": [
+        "events",
+        "backbone",
+        "dispatcher",
+        "client",
+        "browser"
+    ],
+    "license": "Apache v2.0",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "bower.json",
+        "package.json",
+        ".gitignore",
+        "README.md"
+    ],
+    "dependencies": {
+        "backbone": "latest",
+        "underscore": "latest"
+    }
+}
