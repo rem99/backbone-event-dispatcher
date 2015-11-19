@@ -1,18 +1,18 @@
 # Backbone Event Dispatcher
 ### Example:
 ```js
-var Component = Backbone.View.extend(componentMixin)
+var Component = Backbone.View.extend(componentMixin);
 ```
 Now you can create your initial component view:
 ```js
 var MyComponent = Component.extend({
 /* ... */
-    initialize: fucntion(data) {
+    initialize: function(data) {
         this.registerAsNewComponent();
         /* Events binding, initialisation etc */
     }
 /* ... */
-}
+});
 ```
 
 If u want add some other Views/Models/Collections, just use addComponentItem method:
